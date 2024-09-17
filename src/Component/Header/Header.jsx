@@ -2,9 +2,8 @@ import "./header.css";
 const Header = () => {
   return (
     <div>
-  
       <nav className="Menu">
-      <div className="logo"></div>
+        <div className="logo"></div>
         <ul>
           <li>
             <a href="">صفحه اصلی</a>
