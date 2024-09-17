@@ -29,19 +29,16 @@ const Footer = () => {
           <div className="title-box">چای گلستان</div>
           <ul>
             <li>
-              <a href="">
-               چای صبحانه
-                گلستان​
-              </a>
+              <a href="">چای صبحانه گلستان</a>
             </li>
             <li>
-              <a href="">چای ممتاز ارل گری​</a>
+              <a href="">چای ممتاز ارل گری</a>
             </li>
             <li>
-              <a href="">چای سيلان عطری​</a>
+              <a href="">چای سيلان عطری</a>
             </li>
             <li>
-              <a href="">چای ممتاز سيلان​</a>
+              <a href="">چای ممتاز سيلان</a>
             </li>
             <li>
               <a href="">چای ممتاز هندوستان</a>
@@ -111,9 +108,10 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
       </div>
-      <span className="copyright">All Right Reserved Golestan Company 2022-2025</span>
+      <span className="copyright">
+        All Right Reserved Golestan Company 2022-2025
+      </span>
       <span className="copyright">Design By: Golestan Studio</span>
     </div>
   );
