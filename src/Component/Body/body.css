@@ -1,0 +1,257 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eeeeee;
+}
+.section-1 {
+  width: 80%;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.section-2, .section-6 {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+.section-5{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 3.5rem;
+  background-color: white;
+
+}
+.text-wraper{
+  width: 100%;
+  background-color: #285d67;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 3.5rem;
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+}
+.section-2 > *, .section-6 > *{
+  margin: 0 30% 0 30%;
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+.section-3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  width: 40%;
+}
+.text > h1,
+.section-2 > h2,
+.section-2 > .h2,
+.title {
+  color: red;
+}
+.text > h2 {
+  color: #4a4a4a;
+}
+.para-1 {
+  padding: 2rem 0 2rem 0;
+  color: #9f9f9f;
+}
+.btn-1 {
+  width: 120px;
+  height: 40px;
+  border-width: 0.1px;
+  background-color: white;
+  border-radius: 0.5rem;
+  border-color: #9f9f9f;
+  color: #9f9f9f;
+  border-style: solid;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn-1:hover {
+  color: white;
+  background-color: red;
+  border-color: red;
+}
+.product-image {
+  width: 40%;
+  height: inherit;
+  background: url(../../dist/images/tea-pic1.png) no-repeat;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10rem;
+}
+.box > * {
+  text-wrap: nowrap;
+  margin-left: 1rem;
+}
+.box-icon {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: #4a4a4a solid;
+  border-width: 1px;
+}
+.box-icon > * {
+  padding: 1rem 0 1rem 0;
+}
+.box-icon > .image {
+  width: 200px;
+  height: 200px;
+}
+
+.image-1 {
+  background-image: url(../../dist/images/statistics-icon-4.png);
+}
+.image-2 {
+  background-image: url(../../dist/images/statistics-icon-3.png);
+}
+.image-3 {
+  background-image: url(../../dist/images/statistics-icon-2.png);
+}
+.image-4 {
+  background-image: url(../../dist/images/statistics-icon-1.png);
+}
+.background-rice {
+  width: 100%;
+  height: 35rem;
+  background-image: url("../../dist/images/image2-new-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+}
+.background-tea {
+  width: 100%;
+  height: 35rem;
+  background-image: url("../../dist/images/image3-new.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+}
+.background-nuts {
+  width: 100%;
+  height: 35rem;
+  background-image: url("../../dist/images/image4-new.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+}
+.box-cream {
+  width: 100%;
+  height: 1.1rem;
+  background-color: #efdf9c;
+}
+.productbox {
+  width: 15rem;
+  height: 6rem;
+  background-color: rgb(227, 39, 39);
+  color: white;
+  padding: 1rem;
+  position: relative;
+  top: -4.9rem;
+  right: 22rem;
+}
+.buttons {
+  margin-top: 3rem;
+}
+.btn-margin {
+  margin-left: 1rem;
+}
+.section-4 {
+  width: 100%;
+  background-color: white;
+}
+.gallery {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(198, 245, 198);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-4 h2:first-of-type {
+  margin-right: 20rem;
+  margin-bottom: 2rem;
+}
+img{
+  width: 100%;
+  height: 40%;
+  margin-bottom: 4rem;
+}
+iframe{
+  width:"100%";
+  height:auto;
+  margin-bottom: 4rem;
+} 
+.post {
+  width: 20%;
+  height: 90%;
+  background-color: white;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  text-align: justify;
+  box-shadow: #777777 1px 1px 10px 1px;
+}
+.post > p,
+.post > h3,
+.post > button {
+  padding: 0 1rem;
+}
+.other {
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+.bg-white{
+  background-color: white;
+}
+.gallery-height{
+  height: 80vh;
+}
+.en-golestan{
+  font-size: 2rem;
+
+  color: aqua;
+}
+.fa-golestan{
+  color: white;
+
+}
+.en-hos{
+  color: #9f9f9f;
+}
+.hr-color{
+  border-color:#59aaba ;
+}
+.img-hospital{
+  width: 395px;
+  height: 344px;
+  margin-top: -13%;
+  margin-right: 37%;
+  background-image: url("./../../dist/images/csr-pic1.jpg");
+}
