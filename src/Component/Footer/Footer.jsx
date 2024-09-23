@@ -1,4 +1,5 @@
 import "./footer.css";
+import "./partials/mobile.css"
 const Footer = () => {
   return (
     <div className="footer">

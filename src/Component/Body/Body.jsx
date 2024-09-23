@@ -1,4 +1,5 @@
 import "./body.css";
+import "./partials/mobile.css";
 const body = () => {
   return (
     <div className="container">
