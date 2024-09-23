@@ -1,8 +1,9 @@
 import "./header.css";
+import "./partials/mobile.css";
 const Header = () => {
   return (
     <div>
-      <nav className="Menu">
+      <nav className="menu">
         <div className="logo"></div>
         <ul>
           <li>
